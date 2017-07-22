@@ -1,0 +1,22 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Include:
+  - "**/Gemfile"
+  Exclude:
+  - "vendor/**/*"
+  - "spec/**/*"
+  - "features/**/*"
+  - "db/schema.rb"
+  - "*.gemspec"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/Documentation:
+  Enabled: false
+
+Style/MethodLength:
+  Max: 20
